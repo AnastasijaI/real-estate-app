@@ -1,14 +1,14 @@
-# Ignore backend build artifacts
-/backend/bin/
-/backend/obj/
-/backend/*.user
-/backend/*.suo
+# ASP.NET build artifacts
+WebAPI/bin/
+WebAPI/obj/
+WebAPI/*.user
+WebAPI/*.suo
 
-# Ignore frontend dependencies and builds
-/frontend/node_modules/
-/frontend/build/
-/frontend/.env
+# React (frontend)
+react-app/node_modules/
+react-app/build/
+react-app/.env
 
-# General ignores
+# General editor junk
 .vscode/
 *.DS_Store
