@@ -1,0 +1,14 @@
+# Ignore backend build artifacts
+/backend/bin/
+/backend/obj/
+/backend/*.user
+/backend/*.suo
+
+# Ignore frontend dependencies and builds
+/frontend/node_modules/
+/frontend/build/
+/frontend/.env
+
+# General ignores
+.vscode/
+*.DS_Store
