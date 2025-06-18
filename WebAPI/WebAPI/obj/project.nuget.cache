@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5I/p8tcrz5cy+e2a1eYXPrVPH6Kxo0ztzoks28zvbejYMv0M+9H0M1ku/8jc3x8aFKx/gLP/YA3bCvqkCHcpnQ==",
+  "dgSpecHash": "r1clxN+0Gb1Ht/HpiEg00jVOMdaS9rtvh08NTCcJ/DFE/xpimcTa2c08vnL5gqwtCJ8/DTvjZSIr7kDg/Xdozw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aneil\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\aneil\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\aneil\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\aneil\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\aneil\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\aneil\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",

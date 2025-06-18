@@ -28,6 +28,7 @@ const AdminPanel = () => {
   const [newCategoryName, setNewCategoryName] = useState("");
   const [editingId, setEditingId] = useState(null);
   const [editingName, setEditingName] = useState("");
+  const [surveys, setSurveys] = useState([]);
 
   useEffect(() => {
     const token = localStorage.getItem("token");
@@ -43,6 +44,14 @@ const AdminPanel = () => {
     }
 
     fetchCategories();
+    fetch("https://localhost:7026/api/appsurveys/all", {
+      headers: {
+        Authorization: `Bearer ${localStorage.getItem("token")}`,
+      },
+    })
+      .then((res) => res.json())
+      .then((data) => setSurveys(data))
+      .catch((err) => console.error("Failed to load surveys", err));
   }, [navigate]);
 
   const fetchCategories = () => {
@@ -184,6 +193,38 @@ const AdminPanel = () => {
           </TableBody>
         </Table>
       </Paper>
+      <Divider sx={{ my: 5 }} />
+        <Typography variant="h5" fontWeight="bold" gutterBottom>
+          📝 Survey Responses
+        </Typography>
+
+        {surveys.map((s) => (
+          <Paper key={s.id} elevation={2} sx={{ p: 2, mb: 2, backgroundColor: "#f9f9f9" }}>
+            <Typography
+              variant="subtitle1"
+              fontWeight="bold"
+              sx={{ cursor: "pointer", color: "#1976d2", "&:hover": { textDecoration: "underline" } }}
+              onClick={() => navigate(`/users/${s.userId}`)}
+            >
+              {s.fullName} ({s.email})
+            </Typography>
+            <Typography variant="body2" sx={{ mt: 1 }}>
+              <strong>Likes most:</strong> {s.likesMost}
+            </Typography>
+            <Typography variant="body2">
+              <strong>Would improve:</strong> {s.improvements}
+            </Typography>
+            <Typography variant="body2">
+              <strong>Would recommend:</strong> {s.wouldRecommend ? "Yes" : "No"}
+            </Typography>
+            <Typography variant="body2">
+              <strong>Rating:</strong> {s.rating} ⭐
+            </Typography>
+            <Typography variant="caption" display="block" sx={{ mt: 1 }}>
+              Submitted at: {new Date(s.submittedAt).toLocaleString()}
+            </Typography>
+          </Paper>
+        ))}
     </Box>
   );
 };

@@ -12,3 +12,6 @@ react-app/.env
 # General editor junk
 .vscode/
 *.DS_Store
+.env
+*.secret.json
+appsettings*.json  

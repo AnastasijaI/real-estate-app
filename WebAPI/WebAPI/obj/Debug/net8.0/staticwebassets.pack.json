@@ -1,439 +1,563 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebAPI.bundle.scp.css",
-      "PackagePath": "staticwebassets\\WebAPI.bundle.scp.css"
-    },
-    {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\1.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\0810a723-3285-4053-b2d9-ffaecdfafc35.jpg",
+      "PackagePath": "staticwebassets\\images\\properties\\0810a723-3285-4053-b2d9-ffaecdfafc35.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\1.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\147ec775-bc0a-48ff-bae4-587f63daee8f.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\1326b3cb-4982-483d-b4a9-0e50180e37fe.jpg",
+      "PackagePath": "staticwebassets\\images\\properties\\1326b3cb-4982-483d-b4a9-0e50180e37fe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\147ec775-bc0a-48ff-bae4-587f63daee8f.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\147ec775-bc0a-48ff-bae4-587f63daee8f.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\194a8568-3e6d-47db-ba7b-77dc071382d7.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\194a8568-3e6d-47db-ba7b-77dc071382d7.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\194a8568-3e6d-47db-ba7b-77dc071382d7.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\1fa6f507-1405-4bc3-ace5-5a9e5b56bb48.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\1f1ad43b-6725-4b72-b51a-d0fe57d6b632.webp",
+      "PackagePath": "staticwebassets\\images\\properties\\1f1ad43b-6725-4b72-b51a-d0fe57d6b632.webp"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\1fa6f507-1405-4bc3-ace5-5a9e5b56bb48.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\1fa6f507-1405-4bc3-ace5-5a9e5b56bb48.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\2.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\2.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\2274eca0-605e-4ce6-a04b-58080b086176.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\2274eca0-605e-4ce6-a04b-58080b086176.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\2274eca0-605e-4ce6-a04b-58080b086176.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\27e19e2b-6d53-44bc-aecb-9430ae3b6ebf.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\279e4b0b-6406-43cb-81ad-f01522183805.jpg",
+      "PackagePath": "staticwebassets\\images\\properties\\279e4b0b-6406-43cb-81ad-f01522183805.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\27e19e2b-6d53-44bc-aecb-9430ae3b6ebf.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\27e19e2b-6d53-44bc-aecb-9430ae3b6ebf.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\28a84dcf-16f3-429a-9ddb-6002c812b821.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\28a84dcf-16f3-429a-9ddb-6002c812b821.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\28a84dcf-16f3-429a-9ddb-6002c812b821.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\3.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\3.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\3e8da287-50ea-4fdf-be66-8dda558d7d3e.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\31db7623-740f-47aa-bc85-7e3facf2eb60.webp",
+      "PackagePath": "staticwebassets\\images\\properties\\31db7623-740f-47aa-bc85-7e3facf2eb60.webp"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\349d08d9-5617-4dd3-9730-b3f6e01abded.jpg",
+      "PackagePath": "staticwebassets\\images\\properties\\349d08d9-5617-4dd3-9730-b3f6e01abded.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\3e8da287-50ea-4fdf-be66-8dda558d7d3e.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\3e8da287-50ea-4fdf-be66-8dda558d7d3e.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\4.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\4.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\47c4aa88-f1a1-4a54-a1cb-8893452d62d2.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\45a11a17-5e6e-4ae5-b295-4160c8c79deb.jpg",
+      "PackagePath": "staticwebassets\\images\\properties\\45a11a17-5e6e-4ae5-b295-4160c8c79deb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\45d0a731-6dde-4115-a738-5e6572320ef7.webp",
+      "PackagePath": "staticwebassets\\images\\properties\\45d0a731-6dde-4115-a738-5e6572320ef7.webp"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\47c4aa88-f1a1-4a54-a1cb-8893452d62d2.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\47c4aa88-f1a1-4a54-a1cb-8893452d62d2.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\4e4a1f34-3d90-4d25-bfe5-13a9faf8c6f2.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\4cd7036b-939b-4369-84f2-04cdc9f24a55.jpg",
+      "PackagePath": "staticwebassets\\images\\properties\\4cd7036b-939b-4369-84f2-04cdc9f24a55.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\4e4a1f34-3d90-4d25-bfe5-13a9faf8c6f2.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\4e4a1f34-3d90-4d25-bfe5-13a9faf8c6f2.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\52c44a96-ba5b-4322-a8aa-e05ae85a8bf6.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\52c44a96-ba5b-4322-a8aa-e05ae85a8bf6.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\52c44a96-ba5b-4322-a8aa-e05ae85a8bf6.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\56bb8f36-ce7f-4bbb-85dc-ac2d79f1c544.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\56bb8f36-ce7f-4bbb-85dc-ac2d79f1c544.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\56bb8f36-ce7f-4bbb-85dc-ac2d79f1c544.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\65f413a9-fbd4-41c5-8a10-2c56a4e9f19c.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\65f413a9-fbd4-41c5-8a10-2c56a4e9f19c.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\65f413a9-fbd4-41c5-8a10-2c56a4e9f19c.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\734ff2fc-d499-445f-9710-589fc8c9dccb.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\6a0fbf20-9bff-478b-bbf9-e51e59c695f5.jpg",
+      "PackagePath": "staticwebassets\\images\\properties\\6a0fbf20-9bff-478b-bbf9-e51e59c695f5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\730e8061-7d04-4e1c-9a49-7efc495d8095.jpg",
+      "PackagePath": "staticwebassets\\images\\properties\\730e8061-7d04-4e1c-9a49-7efc495d8095.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\734ff2fc-d499-445f-9710-589fc8c9dccb.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\734ff2fc-d499-445f-9710-589fc8c9dccb.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\7799a2c2-dabd-4572-9ca7-f3c68f0e9b39.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\770c2930-b2d3-4769-bced-f297da3a5449.webp",
+      "PackagePath": "staticwebassets\\images\\properties\\770c2930-b2d3-4769-bced-f297da3a5449.webp"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\7799a2c2-dabd-4572-9ca7-f3c68f0e9b39.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\7799a2c2-dabd-4572-9ca7-f3c68f0e9b39.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\7d0f5c0f-d11f-41c9-8f68-93a4699dd671.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\795f9d0b-10b1-4455-bdad-535598d8d484.jpg",
+      "PackagePath": "staticwebassets\\images\\properties\\795f9d0b-10b1-4455-bdad-535598d8d484.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\7d0f5c0f-d11f-41c9-8f68-93a4699dd671.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\7d0f5c0f-d11f-41c9-8f68-93a4699dd671.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\8028e446-4a1f-40b9-b9ef-354f2cb2e0c7.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\8028e446-4a1f-40b9-b9ef-354f2cb2e0c7.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\8028e446-4a1f-40b9-b9ef-354f2cb2e0c7.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\8cc9a726-47b8-42cb-b3d9-aa4416ab1ef0.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\815c2a8a-638f-4f78-8873-a9fd20a61426.jpg",
+      "PackagePath": "staticwebassets\\images\\properties\\815c2a8a-638f-4f78-8873-a9fd20a61426.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\8cc9a726-47b8-42cb-b3d9-aa4416ab1ef0.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\8cc9a726-47b8-42cb-b3d9-aa4416ab1ef0.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\9404cc6c-1417-4f32-a920-10b682876110.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\9404cc6c-1417-4f32-a920-10b682876110.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\9404cc6c-1417-4f32-a920-10b682876110.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\97c5c265-153e-4c18-b60d-852daa7ab4bf.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\97c5c265-153e-4c18-b60d-852daa7ab4bf.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\97c5c265-153e-4c18-b60d-852daa7ab4bf.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\9f28adf8-a3cf-4087-ba3d-590435568920.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\9f28adf8-a3cf-4087-ba3d-590435568920.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\9f28adf8-a3cf-4087-ba3d-590435568920.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\a289ec2f-85cc-4dcb-a90a-a3cff67ad89d.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\a289ec2f-85cc-4dcb-a90a-a3cff67ad89d.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\a289ec2f-85cc-4dcb-a90a-a3cff67ad89d.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\a330c2ed-8496-439d-9827-784cf883f878.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\a330c2ed-8496-439d-9827-784cf883f878.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\a330c2ed-8496-439d-9827-784cf883f878.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\ab161a4a-1a02-4e43-a4e3-82be467782d0.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\aaf5a8b2-b2f7-4756-b3ce-6f3a279461db.jpg",
+      "PackagePath": "staticwebassets\\images\\properties\\aaf5a8b2-b2f7-4756-b3ce-6f3a279461db.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\ab161a4a-1a02-4e43-a4e3-82be467782d0.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\ab161a4a-1a02-4e43-a4e3-82be467782d0.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\af6fd3e6-eb4b-4930-aef3-3d9087a77d6f.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\af6fd3e6-eb4b-4930-aef3-3d9087a77d6f.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\af6fd3e6-eb4b-4930-aef3-3d9087a77d6f.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\b27ec4a3-20bf-4282-ade7-782a2d4d928c.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\b27ec4a3-20bf-4282-ade7-782a2d4d928c.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\b27ec4a3-20bf-4282-ade7-782a2d4d928c.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\b3df47e2-b22a-40f4-bd1c-71601a99bffc.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\b3526415-6764-46e9-9e84-9ffc3e4412c6.jpg",
+      "PackagePath": "staticwebassets\\images\\properties\\b3526415-6764-46e9-9e84-9ffc3e4412c6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\b3df47e2-b22a-40f4-bd1c-71601a99bffc.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\b3df47e2-b22a-40f4-bd1c-71601a99bffc.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\c6ef0c76-2232-4f60-b5a5-3560e5dfa0e3.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\b3eb528e-99a7-46c4-b279-3aaec3e19cc6.jpg",
+      "PackagePath": "staticwebassets\\images\\properties\\b3eb528e-99a7-46c4-b279-3aaec3e19cc6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\b55865b6-a84a-4289-a9ca-47f45971f46d.jpg",
+      "PackagePath": "staticwebassets\\images\\properties\\b55865b6-a84a-4289-a9ca-47f45971f46d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\b5edf2bb-96c3-4783-8e1b-b62ff6ff631e.jpg",
+      "PackagePath": "staticwebassets\\images\\properties\\b5edf2bb-96c3-4783-8e1b-b62ff6ff631e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\c69d773e-255a-435a-95dd-459ca40bc379.jpg",
+      "PackagePath": "staticwebassets\\images\\properties\\c69d773e-255a-435a-95dd-459ca40bc379.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\c6ef0c76-2232-4f60-b5a5-3560e5dfa0e3.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\c6ef0c76-2232-4f60-b5a5-3560e5dfa0e3.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\d8123a0a-b8fa-4b48-84b5-279296071d1a.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\cbca5928-416d-4da3-8021-3a2f808fe404.avif",
+      "PackagePath": "staticwebassets\\images\\properties\\cbca5928-416d-4da3-8021-3a2f808fe404.avif"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\cd040711-d177-4945-a4a1-bc2467047068.jpg",
+      "PackagePath": "staticwebassets\\images\\properties\\cd040711-d177-4945-a4a1-bc2467047068.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\d0dee6ca-722c-483c-9004-6a8279d438b2.jpg",
+      "PackagePath": "staticwebassets\\images\\properties\\d0dee6ca-722c-483c-9004-6a8279d438b2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\d5a98d76-0948-457b-b44f-df0612e5869f.jpg",
+      "PackagePath": "staticwebassets\\images\\properties\\d5a98d76-0948-457b-b44f-df0612e5869f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\d7130695-25f1-42bc-bb0a-5a23f8e52bdd.jpg",
+      "PackagePath": "staticwebassets\\images\\properties\\d7130695-25f1-42bc-bb0a-5a23f8e52bdd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\d8123a0a-b8fa-4b48-84b5-279296071d1a.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\d8123a0a-b8fa-4b48-84b5-279296071d1a.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\dc70e339-b712-44d2-b8dc-ab5f6f80dfed.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\dc70e339-b712-44d2-b8dc-ab5f6f80dfed.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\dc70e339-b712-44d2-b8dc-ab5f6f80dfed.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\df603db4-4520-4277-b869-4a00e23796d8.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\df603db4-4520-4277-b869-4a00e23796d8.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\df603db4-4520-4277-b869-4a00e23796d8.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\f7974884-1b4f-4bd9-b65b-534de105c3d1.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\ee2fcc84-380a-4238-a56b-eedebdd83650.webp",
+      "PackagePath": "staticwebassets\\images\\properties\\ee2fcc84-380a-4238-a56b-eedebdd83650.webp"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\f7974884-1b4f-4bd9-b65b-534de105c3d1.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\f7974884-1b4f-4bd9-b65b-534de105c3d1.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\fdb7ad7f-1f38-4b94-8a40-f14dec7ddd97.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\faec75ce-0acb-4810-9aac-b06df0a13521.webp",
+      "PackagePath": "staticwebassets\\images\\properties\\faec75ce-0acb-4810-9aac-b06df0a13521.webp"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\fdb7ad7f-1f38-4b94-8a40-f14dec7ddd97.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\fdb7ad7f-1f38-4b94-8a40-f14dec7ddd97.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\fe11f7ab-262a-4f01-acd4-d23692aa51d0.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\fe11f7ab-262a-4f01-acd4-d23692aa51d0.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\fe11f7ab-262a-4f01-acd4-d23692aa51d0.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\fe2e6ec1-d44a-4bd9-911c-664d011db7b8.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\fe2e6ec1-d44a-4bd9-911c-664d011db7b8.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\fe2e6ec1-d44a-4bd9-911c-664d011db7b8.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\no_image.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\properties\\no_image.jpg",
       "PackagePath": "staticwebassets\\images\\properties\\no_image.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\users\\5d0ec8d6-8be4-4ace-97b9-f199ecd6563f.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\users\\1f55b7ba-5c07-44d6-804d-0424a67d9735.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\1f55b7ba-5c07-44d6-804d-0424a67d9735.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\users\\4c528465-3c3f-4fde-9200-a3cda23511b8.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\4c528465-3c3f-4fde-9200-a3cda23511b8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\users\\5d0ec8d6-8be4-4ace-97b9-f199ecd6563f.jpg",
       "PackagePath": "staticwebassets\\images\\users\\5d0ec8d6-8be4-4ace-97b9-f199ecd6563f.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\users\\8a15b593-f76d-4d18-96f7-7f7826d5c60e.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\users\\5f819886-bd6d-4dde-b0a0-60ae78be8750.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\5f819886-bd6d-4dde-b0a0-60ae78be8750.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\users\\8a15b593-f76d-4d18-96f7-7f7826d5c60e.jpg",
       "PackagePath": "staticwebassets\\images\\users\\8a15b593-f76d-4d18-96f7-7f7826d5c60e.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\users\\aa8ef0d9-8cb6-4a16-80f0-5e398dcae201.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\users\\aa8ef0d9-8cb6-4a16-80f0-5e398dcae201.jpg",
       "PackagePath": "staticwebassets\\images\\users\\aa8ef0d9-8cb6-4a16-80f0-5e398dcae201.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\users\\ad7bb38b-8267-446b-ab3b-a0d71e089597.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\users\\ad7bb38b-8267-446b-ab3b-a0d71e089597.jpg",
       "PackagePath": "staticwebassets\\images\\users\\ad7bb38b-8267-446b-ab3b-a0d71e089597.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\users\\b90ebe2e-cddc-452b-bf76-908590e00a30.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\users\\b5da6f28-d071-4e9e-876d-fb26357c9862.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\b5da6f28-d071-4e9e-876d-fb26357c9862.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\users\\b90ebe2e-cddc-452b-bf76-908590e00a30.jpg",
       "PackagePath": "staticwebassets\\images\\users\\b90ebe2e-cddc-452b-bf76-908590e00a30.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\users\\cd398149-8d77-4a3e-b209-3b13a2b5bd60.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\users\\cd398149-8d77-4a3e-b209-3b13a2b5bd60.jpg",
       "PackagePath": "staticwebassets\\images\\users\\cd398149-8d77-4a3e-b209-3b13a2b5bd60.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\users\\e8abcf2a-7b5d-421d-ac2c-da9478c6eb17.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\users\\e8abcf2a-7b5d-421d-ac2c-da9478c6eb17.jpg",
       "PackagePath": "staticwebassets\\images\\users\\e8abcf2a-7b5d-421d-ac2c-da9478c6eb17.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\users\\fd30e204-650e-48aa-9807-0077cd93c468.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\users\\ef2891b0-9ec0-4e0b-a8c9-2fc82d4c02b7.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\ef2891b0-9ec0-4e0b-a8c9-2fc82d4c02b7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\users\\fd30e204-650e-48aa-9807-0077cd93c468.jpg",
       "PackagePath": "staticwebassets\\images\\users\\fd30e204-650e-48aa-9807-0077cd93c468.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\images\\users\\img1.jpg",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\images\\users\\img1.jpg",
       "PackagePath": "staticwebassets\\images\\users\\img1.jpg"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\aneil\\source\\repos\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\aneil\\source\\repos\\diplomska\\WebAPI\\WebAPI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

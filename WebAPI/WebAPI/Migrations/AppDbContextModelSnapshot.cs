@@ -22,6 +22,46 @@ namespace WebAPI.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("WebAPI.Models.AppSurvey", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Improvements")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LikesMost")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("Rating")
+                        .HasColumnType("float");
+
+                    b.Property<DateTime>("SubmittedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("UserId1")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("WouldRecommend")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.HasIndex("UserId1");
+
+                    b.ToTable("AppSurvey");
+                });
+
             modelBuilder.Entity("WebAPI.Models.Category", b =>
                 {
                     b.Property<int>("CategoryId")
@@ -62,89 +102,6 @@ namespace WebAPI.Migrations
                     b.ToTable("Favourites");
                 });
 
-            modelBuilder.Entity("WebAPI.Models.Interaction", b =>
-                {
-                    b.Property<int>("InteractionId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("InteractionId"));
-
-                    b.Property<int>("BuyerId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Method")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("SellerId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("Timestamp")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("InteractionId");
-
-                    b.ToTable("Interactions");
-                });
-
-            modelBuilder.Entity("WebAPI.Models.Location", b =>
-                {
-                    b.Property<int>("LocationId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LocationId"));
-
-                    b.Property<string>("Address")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<double>("Latitude")
-                        .HasColumnType("float");
-
-                    b.Property<double>("Longitude")
-                        .HasColumnType("float");
-
-                    b.Property<int?>("PropertyId")
-                        .HasColumnType("int");
-
-                    b.HasKey("LocationId");
-
-                    b.HasIndex("PropertyId");
-
-                    b.ToTable("Locations");
-                });
-
-            modelBuilder.Entity("WebAPI.Models.Message", b =>
-                {
-                    b.Property<int>("MessageId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MessageId"));
-
-                    b.Property<string>("Content")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("ReceiverId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("SenderId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("SentAt")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("MessageId");
-
-                    b.HasIndex("ReceiverId");
-
-                    b.HasIndex("SenderId");
-
-                    b.ToTable("Messages");
-                });
-
             modelBuilder.Entity("WebAPI.Models.Property", b =>
                 {
                     b.Property<int>("PropertyId")
@@ -170,7 +127,7 @@ namespace WebAPI.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("Rooms")
+                    b.Property<int?>("Rooms")
                         .HasColumnType("int");
 
                     b.Property<double>("Size")
@@ -247,6 +204,21 @@ namespace WebAPI.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("WebAPI.Models.AppSurvey", b =>
+                {
+                    b.HasOne("WebAPI.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("WebAPI.Models.User", null)
+                        .WithMany("AppSurveys")
+                        .HasForeignKey("UserId1");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("WebAPI.Models.Favourite", b =>
                 {
                     b.HasOne("WebAPI.Models.Property", "Property")
@@ -264,32 +236,6 @@ namespace WebAPI.Migrations
                     b.Navigation("Property");
 
                     b.Navigation("User");
-                });
-
-            modelBuilder.Entity("WebAPI.Models.Location", b =>
-                {
-                    b.HasOne("WebAPI.Models.Property", "Property")
-                        .WithMany()
-                        .HasForeignKey("PropertyId");
-
-                    b.Navigation("Property");
-                });
-
-            modelBuilder.Entity("WebAPI.Models.Message", b =>
-                {
-                    b.HasOne("WebAPI.Models.User", "Receiver")
-                        .WithMany()
-                        .HasForeignKey("ReceiverId")
-                        .OnDelete(DeleteBehavior.Restrict);
-
-                    b.HasOne("WebAPI.Models.User", "Sender")
-                        .WithMany("Messages")
-                        .HasForeignKey("SenderId")
-                        .OnDelete(DeleteBehavior.Restrict);
-
-                    b.Navigation("Receiver");
-
-                    b.Navigation("Sender");
                 });
 
             modelBuilder.Entity("WebAPI.Models.Property", b =>
@@ -329,7 +275,7 @@ namespace WebAPI.Migrations
 
             modelBuilder.Entity("WebAPI.Models.User", b =>
                 {
-                    b.Navigation("Messages");
+                    b.Navigation("AppSurveys");
 
                     b.Navigation("Properties");
                 });

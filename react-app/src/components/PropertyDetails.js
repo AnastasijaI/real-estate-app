@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import { useNavigate } from "react-router-dom";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
-
+import { Avatar } from "@mui/material";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
@@ -172,7 +172,9 @@ const PropertyDetails = () => {
                         <Grid container spacing={2} sx={{ mt: 2 }}>
                             <Grid item xs={6}>
                                 <Typography><strong> m²:</strong> €{property.price}</Typography>
-                                <Typography><strong>Rooms:</strong> {property.rooms}</Typography>
+                                {property.rooms != null && (
+                                    <Typography><strong>Rooms:</strong> {property.rooms}</Typography>
+                                )}
                                 <Typography
                                     sx={{ cursor: "pointer", color: "#1976d2" }}
                                     onClick={(e) => {
@@ -197,15 +199,32 @@ const PropertyDetails = () => {
                                             {property.user?.fullName}
                                         </a>
                                     </Typography>
-                                     <img
+                                     <Avatar
                                         src={
                                             property.user?.profileImage
-                                                ? `https://localhost:7026${property.user.profileImage}`
-                                                : "/default_user.png"
+                                            ? `https://localhost:7026${property.user.profileImage}`
+                                            : "" // нема слика, ќе покажеме иницијали
                                         }
                                         alt="User"
-                                        style={{ width: 40, height: 40, borderRadius: "50%", marginRight: 10 }}
-                                    />
+                                        sx={{
+                                            width: 40,
+                                            height: 40,
+                                            marginLeft: 1,
+                                            bgcolor: property.user?.profileImage ? "transparent" : "#90a4ae",
+                                            fontWeight: "bold",
+                                            fontSize: "1rem"
+                                        }}
+                                        >
+                                        {
+                                            !property.user?.profileImage && property.user?.fullName
+                                            ? property.user.fullName
+                                                .split(" ")
+                                                .map(word => word[0])
+                                                .join("")
+                                                .toUpperCase()
+                                            : null
+                                        }
+                                        </Avatar>
                                 </Box>
 
                                 <Typography sx={{ mt: 1 }}>

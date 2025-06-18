@@ -15,7 +15,7 @@ namespace WebAPI.Models
 
         public decimal Price { get; set; }
 
-        public int Rooms { get; set; }
+        public int? Rooms { get; set; }
 
         public double Size { get; set; } 
 

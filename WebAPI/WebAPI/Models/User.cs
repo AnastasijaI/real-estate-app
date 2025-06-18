@@ -20,11 +20,12 @@ namespace WebAPI.Models
         [Required]
         public string Password { get; set; }
 
-        public string? Role { get; set; } // Admin, Buyer, Seller
+        public string? Role { get; set; } 
         public string? ProfileImage { get; set; }
         public string? Contact { get; set; }
 
         public virtual ICollection<Property>? Properties { get; set; }
-        public virtual ICollection<Message>? Messages { get; set; }
+        public virtual ICollection<AppSurvey>? AppSurveys { get; set; }
+
     }
 }

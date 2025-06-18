@@ -96,7 +96,32 @@ const Login = () => {
       )}
 
       <Box mt={2} display="flex" justifyContent="space-between" alignItems="center">
-        <Link href="#" underline="hover" fontSize={14}>
+       <Link
+          component="button"
+          onClick={() => {
+            const email = prompt("Please enter your email:");
+            if (!email) return;
+
+            fetch("https://localhost:7026/api/users/reset-password", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ email }),
+            })
+              .then((res) => {
+                if (res.ok) {
+                  alert("A new password has been sent to your email.");
+                } else {
+                  alert("Failed to reset password.");
+                }
+              })
+              .catch((err) => {
+                console.error(err);
+                alert("Something went wrong.");
+              });
+          }}
+          underline="hover"
+          fontSize={14}
+        >
           Forgot password?
         </Link>
         <Link

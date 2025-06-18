@@ -14,27 +14,12 @@ namespace WebAPI.Data
         public DbSet<Property> Properties { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<PropertyImage> PropertyImages { get; set; }
-        public DbSet<Message> Messages { get; set; }
-        public DbSet<Location> Locations { get; set; }
         public DbSet<Favourite> Favourites { get; set; }
-        public DbSet<Interaction> Interactions { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
-            modelBuilder.Entity<Message>()
-                .HasOne(m => m.Sender)
-                .WithMany(u => u.Messages)
-                .HasForeignKey(m => m.SenderId)
-                .OnDelete(DeleteBehavior.Restrict);
-
-            modelBuilder.Entity<Message>()
-                .HasOne(m => m.Receiver)
-                .WithMany()
-                .HasForeignKey(m => m.ReceiverId)
-                .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<Property>()
                .HasOne(p => p.User)
@@ -53,7 +38,14 @@ namespace WebAPI.Data
                 .WithMany()
                 .HasForeignKey(f => f.PropertyId)
                 .OnDelete(DeleteBehavior.Cascade);
+            modelBuilder.Entity<AppSurvey>()
+                .HasOne(s => s.User)
+                .WithMany() 
+                .HasForeignKey(s => s.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+
         }
+        public DbSet<WebAPI.Models.AppSurvey> AppSurvey { get; set; } = default!;
 
     }
 }

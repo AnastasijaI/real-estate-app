@@ -2,12 +2,14 @@ import React, {useState, useEffect} from "react";
 import { Box, Button, Typography, Divider, Grid, Fade } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { jwtDecode } from "jwt-decode";
+import { Rating } from "@mui/material";
 
 const Home = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-
+  const [averageRating, setAverageRating] = useState(0);
+  
   useEffect(() => {
     const token = localStorage.getItem("token");
 
@@ -32,7 +34,14 @@ const Home = () => {
       setIsAuthenticated(false);
     }
   }, []);
-
+  useEffect(() => {
+    fetch("https://localhost:7026/api/appsurveys/average-rating")
+      .then((res) => res.json())
+      .then((data) => {
+        setAverageRating(data.averageRating || 0);
+      })
+      .catch((err) => console.error("Failed to fetch rating:", err));
+  }, []);
   return (
     <Box sx={{ width: "100%", backgroundColor: "#f5f5f5" }} >
       <Box
@@ -219,14 +228,32 @@ const Home = () => {
           />
           <Button
             variant="contained"
-            onClick={() => {
+            onClick={async () => {
               if (email.trim()) {
-                alert("Thank you for subscribing!");
-                setEmail(""); // 🧽 Clear field
+                try {
+                  const response = await fetch("https://localhost:7026/api/subscribe", {
+                    method: "POST",
+                    headers: {
+                      "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(email)
+                  });
+
+                  if (response.ok) {
+                    alert("Thank you for subscribing!");
+                    setEmail("");
+                  } else {
+                    alert("Failed to subscribe.");
+                  }
+                } catch (err) {
+                  alert("An error occurred while subscribing.");
+                  console.error(err);
+                }
               } else {
                 alert("Please enter a valid email.");
               }
             }}
+
             sx={{
               borderRadius: "0 25px 25px 0",
               backgroundColor: "#00acc1",
@@ -253,6 +280,17 @@ const Home = () => {
           you connect efficiently and securely. We aim to make real estate experiences simpler,
           smarter, and more accessible.
         </Typography>
+        <Box sx={{ mt: 4 }}>
+          <Typography variant="h6" gutterBottom>
+            What users think:
+          </Typography>
+          <Box display="flex" alignItems="center" justifyContent="center" mt={1}>
+            <Rating value={averageRating} precision={0.5} readOnly />
+            <Typography variant="body1" sx={{ ml: 1 }}>
+              {averageRating}/5
+            </Typography>
+          </Box>
+        </Box>
         <Divider sx={{ backgroundColor: "#ffffff55", my: 4 }} />
 
         <Typography variant="h5" fontWeight="bold" gutterBottom>

@@ -137,6 +137,8 @@ namespace WebAPI.Controllers
                              : "/images/properties/" + url
                                         }).ToList()
                 };
+                Console.WriteLine("CREATING PROPERTY...");
+                Console.WriteLine(Newtonsoft.Json.JsonConvert.SerializeObject(dto));
 
                 _context.Properties.Add(property);
                 await _context.SaveChangesAsync();
@@ -145,6 +147,8 @@ namespace WebAPI.Controllers
             }
             catch (Exception ex)
             {
+                Console.WriteLine("Error creating property:");
+                Console.WriteLine(ex.ToString());
                 return StatusCode(500, new { message = "Server error", error = ex.Message });
             }
         }

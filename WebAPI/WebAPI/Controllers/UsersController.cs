@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Net.Mail;
+using System.Net;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,12 +28,14 @@ namespace WebAPI.Controllers
         private readonly AppDbContext _context;
         private readonly IWebHostEnvironment _env;
         private readonly JwtSettings _jwtSettings;
+        private readonly IConfiguration _config;
 
-        public UsersController(AppDbContext context, IWebHostEnvironment env, IOptions<JwtSettings> jwtOptions)
+        public UsersController(AppDbContext context, IWebHostEnvironment env, IOptions<JwtSettings> jwtOptions, IConfiguration config)
         {
             _context = context;
             _env = env;
             _jwtSettings = jwtOptions.Value;
+            _config = config;
         }
 
         // GET: api/Users
@@ -118,6 +122,7 @@ namespace WebAPI.Controllers
             {
                 return BadRequest("Email already exists.");
             }
+            user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
             if (profileImage != null && profileImage.Length > 0)
             {
                 var uploadsFolder = Path.Combine(_env.WebRootPath, "images/users");
@@ -219,7 +224,7 @@ namespace WebAPI.Controllers
 
             var user = _context.Users.FirstOrDefault(u => u.Email == request.Email);
 
-            if (user == null || user.Password != request.Password)
+            if (user == null || !BCrypt.Net.BCrypt.Verify(request.Password, user.Password))
             {
                 return Unauthorized("Invalid email or password");
             }
@@ -228,10 +233,10 @@ namespace WebAPI.Controllers
             {
                 Subject = new ClaimsIdentity(new[]
                 {
-            new Claim(ClaimTypes.Name, user.UserId.ToString()),
-            new Claim(ClaimTypes.Email, user.Email),
-            new Claim(ClaimTypes.Role, user.Role)
-        }),
+                    new Claim(ClaimTypes.Name, user.UserId.ToString()),
+                    new Claim(ClaimTypes.Email, user.Email),
+                    new Claim(ClaimTypes.Role, user.Role)
+                }),
                 Expires = DateTime.UtcNow.AddHours(3),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
@@ -251,22 +256,46 @@ namespace WebAPI.Controllers
                 }
             });
         }
-        [HttpPost("log-interaction")]
-        [Authorize]
-        public IActionResult LogInteraction([FromBody] InteractionDto dto)
+        [HttpPost("reset-password")]
+        public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordRequest model)
         {
-            var interaction = new Interaction
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == model.Email);
+            if (user == null)
+                return NotFound("User not found");
+
+            var newPassword = Guid.NewGuid().ToString().Substring(0, 8);
+            user.Password = BCrypt.Net.BCrypt.HashPassword(newPassword);
+            await _context.SaveChangesAsync();
+
+            var smtpClient = new SmtpClient(_config["EmailSettings:SmtpServer"])
             {
-                BuyerId = dto.BuyerId,
-                SellerId = dto.SellerId,
-                Timestamp = dto.Timestamp,
-                Method = dto.Method
+                Port = int.Parse(_config["EmailSettings:Port"]),
+                Credentials = new NetworkCredential(
+                    _config["EmailSettings:FromEmail"],
+                    _config["EmailSettings:AppPassword"]
+                ),
+                EnableSsl = true,
             };
 
-            _context.Interactions.Add(interaction);
-            _context.SaveChanges();
+            var message = new MailMessage
+            {
+                From = new MailAddress(_config["EmailSettings:FromEmail"]),
+                Subject = "Your New Password",
+                Body = $"Your new password is: {newPassword}",
+                IsBodyHtml = false,
+            };
+            message.To.Add(model.Email);
 
-            return Ok();
+            smtpClient.Send(message);
+
+            return Ok("New password sent");
         }
+
+
+        public class ResetPasswordRequest
+        {
+            public string Email { get; set; }
+        }
+
     }
 }

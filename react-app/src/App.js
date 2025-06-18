@@ -18,6 +18,7 @@ import PrivateRoute from "./components/PrivateRoute";
 import AdminPanel from "./components/AdminPanel";
 import Favourites from "./components/Favourites";
 import EditUserPage from './components/EditUserPage';
+import AppSurvey from './components/AppSurvey';
 function App() {
   return (
     <Provider store={store}>
@@ -36,6 +37,7 @@ function App() {
             <Route path="/admin-panel" element={<AdminPanel />} />
             <Route path="/favourites" element={<Favourites />} /> 
             <Route path="/users/edit/:id" element={<EditUserPage />} />
+            <Route path="/survey" element={<PrivateRoute><AppSurvey /></PrivateRoute>} />
          </Routes>
         </Layout>
       </Router>

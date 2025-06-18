@@ -74,29 +74,38 @@ const Favourites = () => {
                 sx={{
                   position: "relative",
                   cursor: "pointer",
-                  height: 260,
-                  width: 200,
+                  height: 280,
+                  width: 250,
                   display: "flex",
                   flexDirection: "column",
                   justifyContent: "space-between",
                   borderRadius: 2,
                   boxShadow: 3,
+                  overflow: "hidden",
                 }}
               >
 
                 <CardMedia
                   component="img"
-                  height="180"
+                  height="160"
                   image={
                     property.images && property.images.length > 0
                       ? `https://localhost:7026${property.images[0].imageUrl}`
-                      : "/default-property.jpg"
+                      : "/no_image.jpg"
                   }
 
                   alt={property.title}
+                   sx={{
+                    height: 160,
+                    objectFit: "cover"
+                  }}
                   onClick={() => navigate(`/property/details/${property.propertyId}`)}
                 />
                 <CardContent
+                 sx={{
+                  height: 100,         
+                  overflow: "hidden"
+                }}
                   onClick={() => navigate(`/property/details/${property.propertyId}`)}
                 >
                   <Typography variant="h6">{property.title}</Typography>

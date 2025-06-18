@@ -158,7 +158,7 @@ const Properties = (props) => {
             );
         })
             ) : (
-                <Grid item xs={12}>
+                <Grid item xs={12} sx={{color: "white"}}>
                     <Typography>No properties available.</Typography>
                 </Grid>
             )}

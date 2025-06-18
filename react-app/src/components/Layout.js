@@ -10,6 +10,9 @@ const Layout = ({ children }) => {
   const open = Boolean(anchorEl);
   const navigate = useNavigate();
   const [userRole, setUserRole] = useState(null);
+
+
+
   useEffect(() => {
     const storedUser = localStorage.getItem("loggedUser");
     const token = localStorage.getItem("token");
@@ -19,11 +22,31 @@ const Layout = ({ children }) => {
     if (token) {
       try {
         const decoded = jwtDecode(token);
-        setUserRole(decoded.role);
-      } catch (err) {
-        setUserRole(null);
+        setUserRole(decoded.role); 
+
+        const expiryTime = decoded.exp * 1000;
+        if (Date.now() >= expiryTime) {
+          localStorage.removeItem("token");
+          localStorage.removeItem("loggedUser");
+          navigate("/login");
+          window.location.reload();
+        } else {
+          const timeout = expiryTime - Date.now();
+          setTimeout(() => {
+            localStorage.removeItem("token");
+            localStorage.removeItem("loggedUser");
+            navigate("/login");
+            window.location.reload();
+          }, timeout);
+        }
+      } catch (error) {
+        localStorage.removeItem("token");
+        localStorage.removeItem("loggedUser");
+        navigate("/login");
+        window.location.reload();
       }
     }
+
   }, []);
 
   const handleAvatarClick = (event) => {
@@ -112,16 +135,29 @@ const Layout = ({ children }) => {
                   anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
                   transformOrigin={{ vertical: "top", horizontal: "right" }}
                 >
-                  {userRole !== "Admin" && (
-                    <MenuItem
-                      onClick={() => {
-                        navigate(`/users/${user.userId}`);
-                        handleMenuClose();
-                      }}
-                    >
-                      My Profile
-                    </MenuItem>
-                  )}
+                {userRole !== "Admin" && [
+                  <MenuItem
+                    key="profile"
+                    onClick={() => {
+                      navigate(`/users/${user.userId}`);
+                      handleMenuClose();
+                    }}
+                  >
+                    My Profile
+                  </MenuItem>,
+
+                  <MenuItem
+                    key="feedback"
+                    onClick={() => {
+                      navigate("/survey");
+                      handleMenuClose();
+                    }}
+                  >
+                    Feedback
+                  </MenuItem>,
+                ]}
+
+
                   <MenuItem onClick={handleLogout} sx={{
                     backgroundColor: "white",
                     color: "black",

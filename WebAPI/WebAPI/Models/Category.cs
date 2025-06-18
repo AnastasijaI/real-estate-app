@@ -8,7 +8,7 @@ namespace WebAPI.Models
         public int CategoryId { get; set; }
 
         [Required]
-        public string? Name { get; set; } // Apartment, House, Commercial, Land
+        public string? Name { get; set; } 
 
         public virtual ICollection<Property>? Properties { get; set; }
     }

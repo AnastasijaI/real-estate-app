@@ -6,7 +6,7 @@
         public string Title { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
-        public int Rooms { get; set; }
+        public int? Rooms { get; set; }
         public double Size { get; set; }
         public string Location { get; set; }
         public bool IsSold { get; set; }

@@ -12,7 +12,7 @@ const initialValues = {
     title: "",
     description: "",
     price: "",
-    rooms: "",
+    rooms: null,
     size: "",
     location: "",
     isSold: false,
@@ -63,6 +63,8 @@ const PropertyForm = (props) => {
 
     const handleFormSubmit = async () => {
         const imageUrls = await uploadImages();
+        const selectedCategory = categories.find(cat => cat.categoryId == values.categoryId);
+        const isLandCategory = selectedCategory?.name?.toLowerCase() === "land";
         const formattedValues = {
             ...values,
             // imageUrls: imageUrls.length > 0 ? imageUrls : ["/no_image.jpg"],
@@ -75,7 +77,7 @@ const PropertyForm = (props) => {
             ],
 
             price: parseFloat(values.price),
-            rooms: parseInt(values.rooms),
+            rooms: isLandCategory ? null : (values.rooms !== null && values.rooms !== "" ? parseInt(values.rooms) : null),
             size: parseFloat(values.size),
             categoryId: parseInt(values.categoryId),
             userId: JSON.parse(localStorage.getItem("loggedUser"))?.userId,
@@ -89,9 +91,13 @@ const PropertyForm = (props) => {
             navigate("/properties"); 
         };
 
-
         if (values.propertyId === 0) {
-            props.createProperty(formattedValues, onSuccess);
+           try {
+  props.createProperty(formattedValues, onSuccess);
+} catch (err) {
+  console.error("Create error:", err.response?.data || err.message);
+  alert("Error: " + (err.response?.data?.message || err.message));
+}
         } else {
             props.updateProperty(values.propertyId, formattedValues, onSuccess);
         }
@@ -219,7 +225,19 @@ const PropertyForm = (props) => {
         <TextField label="Title" name="title" value={values.title} onChange={handleChange} required />
         <TextField label="Description" name="description" value={values.description} onChange={handleChange} multiline rows={3} />
         <TextField label="Price (€)" type="number" name="price" value={values.price} onChange={handleChange} required />
-        <TextField label="Rooms" type="number" name="rooms" value={values.rooms} onChange={handleChange} required />
+        {(() => {
+          const selectedCategory = categories.find(cat => cat.categoryId == values.categoryId);
+          return selectedCategory?.name !== "Land" && (
+            <TextField
+              label="Rooms"
+              type="number"
+              name="rooms"
+              value={values.rooms}
+              onChange={handleChange}
+            />
+          );
+        })()}
+
         <TextField label="Size (m²)" type="number" name="size" value={values.size} onChange={handleChange} required />
         <Box sx={{ position: "relative" }}>
           <TextField
@@ -256,12 +274,20 @@ const PropertyForm = (props) => {
             </Box>
           )}
         </Box>
-
-
-        <TextField select label="Sold?" name="isSold" value={values.isSold} onChange={handleChange} SelectProps={{ native: true }}>
-          <option value={false}>No</option>
-          <option value={true}>Yes</option>
-        </TextField>
+        
+        {values.propertyId !== 0 && (
+          <TextField
+            select
+            label="Sold?"
+            name="isSold"
+            value={values.isSold}
+            onChange={handleChange}
+            SelectProps={{ native: true }}
+          >
+            <option value={false}>No</option>
+            <option value={true}>Yes</option>
+          </TextField>
+        )}
 
         <TextField select label="Category" name="categoryId" value={values.categoryId} onChange={handleChange} required SelectProps={{ native: true }}>
           <option value="">-- Select --</option>
